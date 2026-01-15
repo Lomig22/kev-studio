@@ -1,0 +1,21 @@
+# Documentation (optionnel, à décommenter si vous voulez exclure)
+# *.md
+# WELCOME.txt
+
+# Git
+.git
+.gitignore
+
+# Editor
+.vscode
+.editorconfig
+
+# GitHub templates
+.github
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
