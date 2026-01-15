@@ -1,0 +1,29 @@
+{
+  "name": "kev-studio",
+  "version": "1.0.0",
+  "description": "Site web premium pour Kev Studio - Agence audiovisuelle",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=8000 --open=/",
+    "build": "echo 'No build step required - static site'",
+    "deploy": "netlify deploy --prod"
+  },
+  "keywords": [
+    "video",
+    "motion-design",
+    "montage",
+    "audiovisuel",
+    "storytelling",
+    "agence-video"
+  ],
+  "author": "Kevin Colibault - Kev Studio",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevstudio/kev-studio-main.git"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
