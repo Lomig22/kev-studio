@@ -5,6 +5,30 @@ Tous les changements notables de ce projet seront documentés dans ce fichier.
 Le format est basé sur [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/),
 et ce projet adhère au [Semantic Versioning](https://semver.org/lang/fr/).
 
+## [1.2.0] - 2026-01-15
+
+### Amélioré
+- ⚡ **Performances des animations** : Transitions 25-40% plus rapides
+- 🎯 **Réactivité** : Feedback instantané au hover (< 200ms)
+- 🎨 **Dynamisme** : Effets visuels renforcés sur tous les éléments interactifs
+- 💫 **Fluidité** : Utilisation de courbes cubic-bezier pour animations naturelles
+- 🚀 **Optimisation GPU** : Ajout de `will-change` sur les éléments animés
+
+### Modifié
+- 🔘 **Boutons** : Transition 0.15s, scale(1.02), translateY(-3px)
+- 🎴 **Service cards** : Transition 0.2s, scale(1.02), translateY(-10px)
+- 🖼️ **Portfolio items** : Transition 0.2s, effets 3D renforcés
+- 🏷️ **Tags et filtres** : Transition 0.15s, scale(1.05)
+- 📊 **Statistiques** : Transition 0.2s, gradient au hover
+- 🌐 **Liens sociaux** : Transition 0.15s, scale(1.1)
+- 🔗 **Navigation** : Transitions optimisées à 0.15-0.2s
+
+### Ajouté
+- ✨ États `:active` sur les boutons pour feedback tactile
+- 💪 Box-shadows multiples pour effet de profondeur
+- 🎨 Transforms combinés (translate + scale) sur tous les éléments
+- 🎯 Cursor pointer sur les éléments interactifs
+
 ## [1.1.0] - 2026-01-15
 
 ### Ajouté
